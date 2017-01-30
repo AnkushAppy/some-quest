@@ -4,7 +4,7 @@ import csv
 
 # read csv file
 sample_array = []
-file_path = "/home/ankush/py_pack/some-quest/sample_points2.csv"
+file_path = "/home/ankush/py_pack/some-quest/sample_points1.csv"
 with open(file_path, 'rb') as csvfile:
     print "Reading File."
     datareader = csv.reader(csvfile, delimiter=',')
